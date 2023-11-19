@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+header, nav, section {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+
+}
+
+.header1{ 
+    font-family: 'Roboto', sans-serif;
+	background:darkgreen;
+        margin: 0;
+        text-align: center; 
+}
+
+.image-left {
+    float: left; 
+    margin-right: 10px; 
+    max-width: 50%;
+    max-height: 50px; 
+    vertical-align: middle;
+   
+}
+
+
+main {
+    display: flex;
+    flex: 1; 
+    
+	
+}
+
+article {
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+    margin: 0 10px;
+    width: calc( 100% / 3);
+
+}nav {
+    
+    display: flex;
+    justify-content: space-around; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+a:hover {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.h2sondage { 
+text-align:center ;
+} 
+
+.navressondage{
+    background-color: white;
+    font-size: larger;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+article img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0  auto;
+
+}
+
